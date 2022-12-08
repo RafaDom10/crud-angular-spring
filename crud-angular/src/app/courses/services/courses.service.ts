@@ -1,0 +1,21 @@
+import { Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+
+import { Course } from '../model/course';
+
+@Injectable({
+  providedIn: 'root'
+})
+export class CoursesService {
+
+  constructor(private httpClient: HttpClient) { }
+
+  list(): Course[] {
+    return [
+      { _id: '1', name: 'JStack', category: 'FullStack' },
+      { _id: '2', name: 'JSExpert', category: 'Backend' },
+      { _id: '3', name: 'React', category: 'Frontend' },
+      { _id: '4', name: 'Node.js', category: 'Backend' },
+    ]
+  }
+}
