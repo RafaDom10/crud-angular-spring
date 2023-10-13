@@ -2,21 +2,21 @@
   {
     "_id": 1,
     "name": "JStack",
-    "category": "FullStack"
+    "category": "front-end"
   },
   {
     "_id": 2,
     "name": "JSExpert",
-    "category": "Backend"
+    "category": "back-end"
   },
   {
     "_id": 3,
     "name": "React",
-    "category": "Frontend"
+    "category": "front-end"
   },
   {
     "_id": 4,
     "name": "Node.js",
-    "category": "Backend"
+    "category": "back-end"
   }
 ]
